@@ -1,3 +1,16 @@
-# dbt
+# Introduction
 
-1. E-commerce Data Analysis
+Implemented robust data transformations using dbt (Data Build Tool), utilizing Jinja macros to optimize scalability and maintainability of the data pipeline sourced from Redshift. dbt has enabled efficient modeling, testing, and documentation of data transformation workflows, ensuring data consistency and reliability across analytics processes.
+
+### Key Achievements:
+* Developed modular transformations using Jinja templates to streamline ETL processes.
+* Enhanced data quality and integrity through structured testing and version control in dbt projects.
+* Improved performance and scalability of data pipelines to accommodate growing data volumes and evolving business needs.
+* Developed Tableau dashboards connected directly to Redshift, enabling real-time tracking and visualization of critical business KPIs.
+
+### Business KPIs Tracked:
+* Total Revenue
+* Total Orders
+* Average Order Value (AOV)
+* Units Per Transaction (UPT)
+* Average Unit Retail (AUR)
