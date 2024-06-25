@@ -14,3 +14,5 @@ Implemented robust data transformations using dbt (Data Build Tool), utilizing J
 * Average Order Value (AOV)
 * Units Per Transaction (UPT)
 * Average Unit Retail (AUR)
+
+![image](https://github.com/nair9/dbt/assets/108756389/e5e05fba-da61-4432-8a7c-d9b5a4058d96)
