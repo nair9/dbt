@@ -38,7 +38,7 @@ with
 select
     n.*,
     t.tot_units,
-    round((n.revenue / n.no_orders)::numeric, 2) as aov,
+    round((n.revenue::numeric / n.no_orders::numeric), 2) as aov,
     round((t.tot_units::numeric/n.no_orders::numeric),2) as upt,
     round((n.revenue/t.tot_units) ,2) as aur
 from trans_by_month t
