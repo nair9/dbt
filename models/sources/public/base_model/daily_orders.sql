@@ -34,7 +34,6 @@ with
             order_date,
             revenue as ty_revenue
         from order_revenue
-        -- group by 1
     ),
     ly as (select * from ty),
     tyly as (
