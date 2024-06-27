@@ -34,7 +34,6 @@ with
             order_date,
             revenue as ty_revenue
         from order_revenue
-        -- group by 1
     ),
     ly as (select * from ty),
     tyly as (
@@ -53,6 +52,7 @@ select
     t.tot_units,
     tyly.ly_date,
     tyly.ly_revenue,
+    round((tyly.ty_revenue - tyly.ly_revenue)/tyly.ly_revenue * 100 ,2) as ly_perc,
     round((n.revenue / n.no_orders)::numeric, 2) as aov,
     round((t.tot_units::numeric/n.no_orders::numeric),2) as upt,
     round((n.revenue/t.tot_units) ,2) as aur
