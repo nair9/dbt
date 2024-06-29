@@ -15,4 +15,6 @@ Implemented robust data transformations using dbt (Data Build Tool), utilizing J
 * Units Per Transaction (UPT)
 * Average Unit Retail (AUR)
 
+Tableau visualization can be found here: [Tableau](https://public.tableau.com/views/Ecommerce_KPIs/Dashboard2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
+
 ![image](https://github.com/nair9/dbt/assets/108756389/e5e05fba-da61-4432-8a7c-d9b5a4058d96)
