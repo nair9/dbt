@@ -2,10 +2,10 @@
 
     {% set spend_category_sql %}
     case
-        when {{ revenue }} > 1000 then '4 - best'
-        when {{ revenue }} > 500 then '3 - top'
-        when {{ revenue }} > 100 then '2 - medium'
-        else '1 - small'
+        when {{ revenue }} > 1000 then 'best'
+        when {{ revenue }} > 500 then 'top'
+        when {{ revenue }} > 100 then 'medium'
+        else 'small'
     end
     {% endset %}
 
