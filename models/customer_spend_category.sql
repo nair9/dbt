@@ -10,7 +10,5 @@ with
         group by 1
     )
 
-select
-    *,
-    {{ customer_category('tot_rev') }} as customer_category
+select *, {{ customer_category("tot_rev") }} as customer_category
 from cust_rev
