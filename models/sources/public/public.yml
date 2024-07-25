@@ -4,10 +4,18 @@ sources:
   - name: public
     tables:
       - name: olist_customers_dataset
+        description: "Table containing customer data"
       - name: olist_geolocation_dataset
+        description: "Table containing geolocation data"
       - name: olist_order_items_dataset
+        description: "Table containing line items within orders"
       - name: olist_order_payments_dataset
+        description: "Table containing payment information of orders"
       - name: olist_order_reviews_dataset
+        description: "Table containing reviews with respect to different orders"
       - name: olist_orders_dataset
+        description: "Table containing orders information"
       - name: olist_products_dataset
+        description: "Table containing product data"
       - name: product_category_name_translation
+        description: "Table containing product category information"
