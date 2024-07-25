@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: fact_orders_valid
+    description: "Table contains all details of the orders"
+    columns:
+      - name: order_id
+        description: "Primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Customer id which is the primary key in customer data table"
+        tests:
+          - not_null
+          - relationships:
+              field: customer_id
+              to: ref('dim_customers')
+      - name: order_status
+        description: "The status for the order should be delivered"
+        tests:
+          - accepted_values:
+              values:
+                - "delivered"
+  
