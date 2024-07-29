@@ -22,4 +22,3 @@ models:
           - accepted_values:
               values:
                 - "delivered"
-  
